@@ -3,8 +3,8 @@
 // Head class
 class drinkCup {
     // Property declaration
-    public $color;
-    public $bevarage;
+    protected $color;
+    protected $bevarage;
 
     // Constructor declaration
     public function __construct($color, $bevarage) {
